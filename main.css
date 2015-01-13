@@ -1,1 +1,118 @@
 /* ADD YOUR STYLES HERE */
+table {
+	border-collapse: collapse;
+}
+
+thead, th {
+	font-weight: bold;
+}
+
+tr {
+	border-bottom: 1px solid #cecfd5;
+	padding: 10px 15px;
+}
+
+.basicTable {
+	width: 100%;
+	line-height: 40px;
+}
+
+.basicTable tr:last-child {
+	border-bottom: none;
+}
+
+.numbers {
+	width: 100px;
+	border-top: 1px solid #cecfd5;
+	border-bottom: 1px solid #cecfd5;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.numberContainer {
+	padding:0 20px;
+}
+
+.num {
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 40px;
+	padding-top: 8px;
+}
+
+.label1 {
+	font-weight: lighter;
+	font-size: 11px;
+	color: #708090;
+	padding-bottom: 18px;
+}
+
+.bargraph {
+	width: 500px;
+	font-size: 15px;
+}
+
+.bargraph div {
+	background-color: #33CCFF;
+	color: #FFF;
+}
+
+.bargraph tr {
+	border-style: none;
+}
+
+.bargraph td {
+	width: 400px;
+	font-weight: lighter;
+	padding-top:5px;
+}
+
+.lightbox1 {
+	width:100%;
+	height:600px;
+	position: relative;
+	background-color: #cecfd5; 
+}
+
+.lightbox2 {
+	position: absolute;
+	background-color: #fff;
+	top:50%;
+	left:25%;
+	right: 25%;
+	transform:translateY(-50%);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.lightboxClose {
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		width: 45px;
+		height: 10px;
+		background-color: #f00;
+		margin-left:70%;
+		border-radius: 15px;
+		color: #fff;
+		padding: 20px;
+		padding-top: 10px;
+
+}
+
+.imgForFloat img {
+	float: left;
+	margin-right: 20px;
+}
+
+.imgForFloat2 img {
+	float: left;
+	margin-right: 20px;
+}
+
+.textForFloat2 {
+		overflow: hidden;
+}
+
